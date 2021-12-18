@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* ==============================
+        common css done
+=============================== */
+button{
+    background:linear-gradient(rgb(255, 0, 0),rgb(255, 166, 0));
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button:nth-of-type(2){
+    background:linear-gradient(rgb(216, 213, 52),rgb(0, 255, 34));
+}
+button:nth-of-type(3){
+    background:linear-gradient(rgb(0, 255, 200),rgb(4, 0, 255));
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/pexels-bithin-raj-1579192.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.box1{
+    width: 500px;
+    height: 500px;
+    background-image: url(../Images/pexels-adrien-olichon-3646206.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.box2{
+    width: 500px;
+    height: 500px;
+    background-image: url(../Images/pexels-plato-terentev-5891794.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+#btn6{
+    background:linear-gradient(rgb(255, 0, 170),rgb(255, 0, 43));
+}
+
+
+.run{
+    width: 900px;
+    height: 500px;
+    border: 10px solid midnightblue;
+    margin: 0px 0px 20px 100px;
+    position: relative;
+    background-image: url(../Images/pexels-junior-teixeira-2047905.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#run{
+    width: 80px;
+    height: 80px;
+    /*background: rgb(253, 0, 0);
+    */position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 2px solid black;
+    border-top-color: rgb(68, 0, 255);
+    border-bottom-color: rgb(255, 0, 0);
+    box-sizing: border-box;
+    color: rgb(41, 187, 231);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fly 3s linear infinite;
+    -webkit-animation: fly 3s linear infinite;
+}
+#run i{
+    animation: none;
+    -webkit-animation: none;
+}
+
+@keyframes fly{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+
+
+}
+#run1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 2px solid black;
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(200, 255, 0);
+    box-sizing: border-box;
+    color: rgb(41, 187, 231);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.flug{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/flag.jpg);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+.khuti{
+    width: 250px;
+    height: 60px;
+    background: rgb(73, 34, 34);
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.khuti1{
+    width: 200px;
+    height: 40px;
+    background: rgb(114, 59, 59);
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.khuti3{
+    width: 30px;
+    height: 400px;
+    background: rgb(148, 129, 129);
+    margin-top: -400px;
+    position: relative;
+}
+
+.khuti3::before{
+    content: "";
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+    
+}
+.khuti3::after{
+    content: "";
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background: white;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+    
+}
+.flag{
+    width: 260px;
+    height: 160px;
+    background-image: url(../Images/ff.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 29px;
+    
+}
+
+#tulon{
+    width: 200px;
+    height: 100px;
+    background-image: url(../Images/salute.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 99999999;
+    color: rgb(0, 255, 221);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+
+}
